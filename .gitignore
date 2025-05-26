@@ -1,5 +1,8 @@
+==== .gitignore ====
 node_modules/
 .env
 uploads/
-dist/
-pgdata/
+# build output
+frontend/dist/
+# DB volume
+db_data/
